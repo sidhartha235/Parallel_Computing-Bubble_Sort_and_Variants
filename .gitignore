@@ -1,0 +1,6 @@
+Graphs/
+input.csv
+output.csv
+*.py
+run.sh
+.vscode/
