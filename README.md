@@ -44,6 +44,7 @@ Then, follow Step 2 above to execute the program.
 ## Program Options
 
 Choose an option(1-6) from provided algorithms:
+[Enter '0' to exit]
 1. Bubble Sort
 2. Odd-Even Transposition Sort
 3. Parallel Odd-Even Transposition Sort
