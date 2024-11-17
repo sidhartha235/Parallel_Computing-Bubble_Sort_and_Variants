@@ -35,7 +35,7 @@
 
 If `make` is not available, compile manually with the command:
 ```
-gcc -Wall -fopenmp -lm -o main main.c inout.c sort.c
+gcc -Wall -fopenmp -o main main.c inout.c sort.c -lm
 ```
 
 Then, follow Step 2 above to execute the program.
@@ -59,4 +59,4 @@ Choose an option(1-6) from provided algorithms:
 * Result including the Algorithm, Data Count, Thread Count, and Execution Time (in seconds) is saved to a file `results.csv`. And can be used for Analysis of these algorithms.
 
 ***
-**NOTE:** The `result.csv` file provided is processed from many runs. To check the unprocessed `results.csv` file visit: [GitHub Repo](https://github.com/sidhartha235/Parallel_Computing-Bubble_Sort_and_Variants.git)
+**NOTE:** The `processed_results.csv` file provided is processed from many runs. To check the unprocessed `results.csv` file visit: [GitHub Repo](https://github.com/sidhartha235/Parallel_Computing-Bubble_Sort_and_Variants.git)
